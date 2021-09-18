@@ -1,4 +1,4 @@
-require("http").createServer((req, res) => res.end("RogmitOp")).listen(process.env.PORT || 8080)
+require("http").createServer((req, res) => res.end("swampplays11")).listen(process.env.PORT || 8080)
 require("dotenv").config();
 const { Client, Collection } = require("discord.js");
 const UrlsConfig = require("./database/models/UrlsConfig");
